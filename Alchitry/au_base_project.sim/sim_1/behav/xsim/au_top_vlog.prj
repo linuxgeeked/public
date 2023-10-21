@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../au_base_project.srcs/sources_1/new/reset_conditioner.v" \
+"../../../../au_base_project.srcs/sources_1/new/au_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
